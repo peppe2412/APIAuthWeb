@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.tw-links-nav{
+    @apply text-lg p-2 rounded-lg hover:bg-gray-500/20 hover:transition hover:duration-500
+}
+
+.tw-inputs-login{
+    @apply border-2 border-sky-400 p-2 rounded-xl w-[300px] text-xl
+}
+
+.tw-inputs-register{
+    @apply  border-2 border-sky-400 p-3 rounded-xl lg:w-[450px] w-[400px] text-xl 
+}
